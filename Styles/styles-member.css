@@ -9,8 +9,30 @@
 
 .in {
     flex-direction: column;
+    width: 20%;
 }
 
 img {
     border-radius: 20px;
+}
+
+.pro {
+    width: 80%;
+    background-position: center;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 5px 5px 10px;
+}
+
+#ihsan {
+    background-image: url("../Assets/mocha-pippi-osu-devochki-priroda-smekh.jpg");
+}
+
+.pro * * {
+    background-color: white;
+    border-radius: 1px;
+}
+
+.pro * {
+    margin: 20px;
 }

@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Varsity-Regular'; /* Give your font a unique name */
-  src: url('Assets/varsity_regular.woff2') format('woff2'); /* Path to your WOFF2 font file */
+  src: url('../Assets/varsity_regular.woff2') format('woff2'); /* Path to your WOFF2 font file */
   font-weight: normal; /* Specify the font's weight (e.g., normal, bold, 400, 700) */
   font-style: normal; /* Specify the font's style (e.g., normal, italic) */
   font-display: swap; /* Controls font loading behavior (optional, but recommended) */
@@ -9,7 +9,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 html {
-    font-family: 'Varsity-Regular';
-    background-color: grey;
+    font-family: 'Montserrat';
+    background-color: #ffeea9;
 }
 

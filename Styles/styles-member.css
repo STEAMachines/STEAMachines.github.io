@@ -1,38 +1,40 @@
-.out, .in, .pro {
-    display: flex;
-    margin: 20px;
+.out,
+.in,
+.pro {
+  display: flex;
+  margin: 20px;
 }
 
 .out {
-    flex-direction: row;
+  flex-direction: row;
 }
 
 .in {
-    flex-direction: column;
-    width: 20%;
+  flex-direction: column;
+  width: 20%;
 }
 
 img {
-    border-radius: 20px;
+  border-radius: 20px;
 }
 
 .pro {
-    width: 80%;
-    background-position: center;
-    border-radius: 20px;
-    display: flex;
-    box-shadow: 5px 5px 10px;
+  width: 80%;
+  background-position: center;
+  border-radius: 20px;
+  display: flex;
+  box-shadow: 5px 5px 10px;
 }
 
 #ihsan {
-    background-image: url("../Assets/mocha-pippi-osu-devochki-priroda-smekh.jpg");
+  background-image: url("../Assets/mocha-pippi-osu-devochki-priroda-smekh.jpg");
 }
 
 .pro * * {
-    background-color: white;
-    border-radius: 1px;
+  background-color: white;
+  border-radius: 1px;
 }
 
 .pro * {
-    margin: 20px;
+  margin: 20px;
 }

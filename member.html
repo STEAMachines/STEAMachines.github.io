@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="Sticker Logo SM White-02.ico">
+    <title>STEAM Machines|Members</title>
+</head>
+<body>
+    <h3>Captain</h3>
+    <h3>Vice Captain</h3>
+    <h3>Engineering Division</h3>
+    <h3>Media Division</h3>
+    <h3>Business Division</h3>
+    <script>
+        const originalTitle = "STEAM Machines|Members "; // Add a space at the end for smooth scrolling
+        let currentIndex = 0;
+
+        function scrollTitle() {
+            document.title = originalTitle.substring(currentIndex) + originalTitle.substring(0, currentIndex);
+            currentIndex++;
+            if (currentIndex > originalTitle.length) {
+                currentIndex = 0;
+            }
+        }
+
+        setInterval(scrollTitle, 200); // Adjust the interval (milliseconds) for speed
+    </script>
+</body>
+</html>

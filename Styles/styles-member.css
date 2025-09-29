@@ -1,0 +1,16 @@
+.out, .in, .pro {
+    display: flex;
+    margin: 20px;
+}
+
+.out {
+    flex-direction: row;
+}
+
+.in {
+    flex-direction: column;
+}
+
+img {
+    border-radius: 20px;
+}

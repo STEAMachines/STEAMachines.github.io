@@ -32,15 +32,17 @@ img {
 }
 
 #ihsan {
-  background-image: url(../Assets/mocha-pippi-osu-devochki-priroda-smekh.jpg);
+  background-image: url(../Assets/PippI.jpg);
   background-size: cover;
 }
 
 #akhdan {
   background-image: url(../Assets/1-8-1024x576.webp);
+  background-size: cover;
 }
 #zayyan {
   background-image: url(../Assets/Chevrolet\ Camaro_BG.png);
+  background-size: cover;
 }
 #agna {
   background-image: url(../Assets/spiderman.jpg);

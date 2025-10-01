@@ -33,6 +33,7 @@ img {
 
 #ihsan {
   background-image: url(../Assets/mocha-pippi-osu-devochki-priroda-smekh.jpg);
+  background-size: cover;
 }
 
 #akhdan {
@@ -42,7 +43,10 @@ img {
   background-image: url(../Assets/Chevrolet\ Camaro_BG.png);
 }
 #agna {
-  background-image: url(../Assets/9c98859bcb92d147bafd0075f6117231.jpg);
+  background-image: url(../Assets/spiderman.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px -50px;
 }
 
 .pro * * {

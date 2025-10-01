@@ -32,16 +32,18 @@ img {
 }
 
 #ihsan {
-  background-image: url("../Assets/mocha-pippi-osu-devochki-priroda-smekh.jpg");
+  background-image: url(../Assets/mocha-pippi-osu-devochki-priroda-smekh.jpg);
 }
 
 #akhdan {
-  background-image: url("../Assets/1-8-1024x576.webp");
+  background-image: url(../Assets/1-8-1024x576.webp);
 }
 #zayyan {
-  background-image: url("../Assets/Chevrolet\ Camaro_BG.png");
+  background-image: url(../Assets/Chevrolet\ Camaro_BG.png);
 }
-
+#agna {
+  background-image: url(../Assets/9c98859bcb92d147bafd0075f6117231.jpg);
+}
 
 .pro * * {
   background-color: white;

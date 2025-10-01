@@ -30,6 +30,10 @@ img {
   background-image: url("../Assets/mocha-pippi-osu-devochki-priroda-smekh.jpg");
 }
 
+#akhdan {
+  background-image: url("../Assets/1-8-1024x576.webp");
+}
+
 .pro * * {
   background-color: white;
   border-radius: 1px;
@@ -37,4 +41,8 @@ img {
 
 .pro * {
   margin: 20px;
+}
+
+p {
+    overflow-wrap: break-word;
 }

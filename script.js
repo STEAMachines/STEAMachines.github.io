@@ -1,4 +1,4 @@
-      const originalTitle = "STEAM Machines|Members "; // Add a space at the end for smooth scrolling
+      const originalTitle = getElementById; // Add a space at the end for smooth scrolling
         let currentIndex = 0;
 
         function scrollTitle() {

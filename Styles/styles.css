@@ -9,11 +9,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 html {
-    font-family: 'Montserrat';
-    background-color: #ffeea9;
+  font-family: 'Montserrat';
+  background-color: #ffeea9;
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  padding: 0%;
+  margin: 0%;
+  padding-top: 0%;
 }
 
 header {
   background-color: #FF7D29;
+  margin: 0px 0px 0px 0px;
+  width: 100%;
 }
 

@@ -1,24 +1,65 @@
 h1 {
-    font-family: "Varsity-Regular";
+  font-family: "Varsity-Regular";
 }
 
 .highlights {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .highlights *:not(#mid) {
-    margin: auto;
-    width: 40%;
-    height: 60%;
+  margin: auto;
+  width: 40%;
+  height: 60%;
 }
 
 #mid {
-    width: 60%;
-    height: 60%;
-    margin: auto;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    /*box shadow sebar Kanan & Kiri
+  width: 60%;
+  height: 60%;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  /*box shadow sebar Kanan & Kiri
     */
+}
+
+.css3-shadow {
+  position: relative;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.css3-shadow:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  bottom: 0px;
+  left: 10%;
+  right: 10%;
+  width: 80%;
+  height: 50%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+
+.events {
+  display: grid;
+  place-items: center;
+  margin: 0;
+}
+
+.event {
+    position: relative;
+    z-index: 120vw;
+}
+
+.event * {
+    margin: 0;
+}
+
+.inline {
+  display: flex;
+  flex-direction: row;
 }

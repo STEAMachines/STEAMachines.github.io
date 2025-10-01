@@ -76,6 +76,7 @@ a {
   background-color: var(--black-color);
   box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
   z-index: var(--z-fixed);
+  border-radius: 20px;
 }
 
 /*=============== NAV ===============*/
@@ -339,6 +340,11 @@ a {
     pointer-events: initial;
     transition: top .3s;
   }
+}
+
+.patch {
+  height: 50%;
+  background-color: #FF7D29;
 }
 
 body {

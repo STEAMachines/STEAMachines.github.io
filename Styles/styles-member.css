@@ -18,6 +18,11 @@ img {
   border-radius: 20px;
 }
 
+.pro img {
+  width: 200px;
+  height: 300px;
+}
+
 .pro {
   width: 80%;
   background-position: center;
@@ -33,6 +38,7 @@ img {
 #akhdan {
   background-image: url("../Assets/1-8-1024x576.webp");
 }
+
 
 .pro * * {
   background-color: white;

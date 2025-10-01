@@ -11,13 +11,13 @@
 
         setInterval(scrollTitle, 250    ); // Adjust the interval (milliseconds) for speed
 
-const showNav = (toggleId, navId) => {
-    const toggle = document.getElementById(toggleId),
-        nav = document.getElementById(navId)
-    
-    toggle.addEventListener('click', () => {
-        nav.classList.toggle('show')
-        toggle.classList.toggle('bx-x')
-    })
-}
-showNav('nav-toggle', 'nav-menu')
+    // const showNav = (toggleId, navId) => {
+    //     const toggle = document.getElementById(toggleId),
+    //         nav = document.getElementById(navId)
+        
+    //     toggle.addEventListener('click', () => {
+    //         nav.classList.toggle('show')
+    //         toggle.classList.toggle('bx-x')
+    //     })
+    // }
+    // showNav('nav-toggle', 'nav-menu')

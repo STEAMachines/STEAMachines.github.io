@@ -33,6 +33,9 @@ img {
 #akhdan {
   background-image: url("../Assets/1-8-1024x576.webp");
 }
+#zayyan {
+  background-image: url("../Assets/Chevrolet\ Camaro_BG.png");
+}
 
 .pro * * {
   background-color: white;

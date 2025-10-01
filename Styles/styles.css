@@ -8,6 +8,37 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+  --header-height: 3.5rem;
+
+  /*========== Colors ==========*/
+  /*Color mode HSL(hue, saturation, lightness)*/  
+  --black-color: #FF7D29;
+  --black-color-light: hsl(56, 100%, 50%);
+  --black-color-lighten: hsl(56, 100%, 50%);
+  --white-color: #000000;
+  --body-color: #ffeea9;
+
+  /*========== Font and typography ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --body-font: "Montserrat", sans-serif;
+  --normal-font-size: .938rem;
+
+  /*========== Font weight ==========*/
+  --font-regular: 400;
+  --font-semi-bold: 600;
+
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
+@media screen and (min-width: 1024px) {
+  :root {
+    --normal-font-size: 1rem;
+  }
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -66,7 +97,7 @@ a {
 }
 
 .nav__logo {
-  display: inline-flex;
+  display: inline;
   align-items: center;
   column-gap: .25rem;
   font-weight: var(--font-semi-bold);
@@ -77,6 +108,9 @@ a {
 .nav__logo i {
   font-weight: initial;
   font-size: 1.25rem;
+}
+.nav_logo img {
+  background-size: 10%;
 }
 
 .nav__toggle {

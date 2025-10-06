@@ -54,9 +54,8 @@ img {
 #alghar {
   background-image: url(../Assets/alghar-b.jpeg);
   background-size: cover;
-  background-position: 60px -300px;
+  background-position: 0px -300px;
 }
-
 .pro * * {
   background-color: white;
   border-radius: 1px;

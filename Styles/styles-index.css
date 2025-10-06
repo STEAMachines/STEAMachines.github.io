@@ -10,22 +10,42 @@ a, a:hover {
 .highlights {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  max-width: 1200px; /* Add maximum width */
+  margin: 0 auto; /* Center the container */
+  min-width: 0;
+  padding: 0 1rem; /* Add padding instead of relying on margin: auto */
+  gap: 1rem; /* Use gap instead of margin for consistent spacing */
 }
 
-.highlights *:not(#mid) {
-  margin: auto;
-  width: 40%;
-  height: 60%;
+.highlights img:not(#mid) {
+  width: 45%; /* Reduced from 40% */
+  height: auto; /* Use auto to maintain aspect ratio */
+  flex-shrink: 1;
+  min-width: 45vw;
+  margin: 5vw;
 }
 
 #mid {
-  width: 60%;
-  height: 60%;
-  margin: auto;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  /*box shadow sebar Kanan & Kiri
-    */
+  width: 65%; /* Reduced from 60% */
+  height: auto; /* Use auto to maintain aspect ratio */
+  flex-shrink: 1;
+  min-width: 0;
+  position: absolute;
+}
+
+.l {
+  position: absolute;
+  left: 0%;
+  margin-left: 0%;
+}
+
+.r {
+  position: absolute;
+  right: 0%;
+  margin-left: 0%;
 }
 
 .css3-shadow {
@@ -52,7 +72,7 @@ a, a:hover {
 .events {
   display: grid;
   place-items: center;
-  margin: 0;
+  margin-top: 5rem;
 }
 
 .event {

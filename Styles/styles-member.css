@@ -33,26 +33,29 @@ img {
   box-shadow: 5px 5px 10px;
 }
 
-#ihsan {
-  background-image: url(../Assets/PippI.jpg);
+#akhdan {
+  background-image: url(../Assets/akhdan-b.webp);
   background-size: cover;
 }
-
-#akhdan {
-  background-image: url(../Assets/1-8-1024x576.webp);
+#ihsan {
+  background-image: url(../Assets/ihsan-b.jpg);
   background-size: cover;
 }
 #zayyan {
-  background-image: url(../Assets/Chevrolet\ Camaro_BG.png);
+  background-image: url(../Assets/zayyan-b.png);
   background-size: cover;
 }
 #agna {
-  background-image: url(../Assets/spiderman.jpg);
+  background-image: url(../Assets/agna-b.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0px -50px;
 }
-
+#alghar {
+  background-image: url(../Assets/alghar-b.jpeg);
+  background-size: cover;
+  background-position: 0px -300px;
+}
 .pro * * {
   background-color: white;
   border-radius: 1px;

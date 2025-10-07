@@ -51,12 +51,15 @@ img {
   background-size: cover;
   background-position: 0px -50px;
 }
+#aziz {
+  background-image: url(../Assets/aziz-b.png);
+  background-size: cover;
+}
 #alghar {
   background-image: url(../Assets/alghar-b.jpeg);
   background-size: cover;
-  background-position: 60px -300px;
+  background-position: 60px -200px;
 }
-
 .pro * * {
   background-color: white;
   border-radius: 1px;

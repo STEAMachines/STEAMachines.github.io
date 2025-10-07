@@ -51,6 +51,10 @@ img {
   background-size: cover;
   background-position: 0px -50px;
 }
+#aziz {
+  background-image: url(../Assets/aziz-b.png);
+  background-size: cover;
+}
 #alghar {
   background-image: url(../Assets/alghar-b.jpeg);
   background-size: cover;

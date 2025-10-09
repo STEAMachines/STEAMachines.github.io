@@ -40,6 +40,7 @@ img {
 #ihsan {
   background-image: url(../Assets/ihsan-b.jpg);
   background-size: cover;
+  background-position: 0px -50px;
 }
 #zayyan {
   background-image: url(../Assets/zayyan-b.png);

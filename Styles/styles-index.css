@@ -1,6 +1,6 @@
-h1 {
+/* h1 {
   font-family: "Varsity-Regular";
-}
+} */
 
 a, a:hover {
   color: black;
@@ -69,30 +69,46 @@ a, a:hover {
   border-radius: 100%;
 }
 
-.events {
+.events-title {
+  text-align: center;
   display: flex;
   flex-direction: column;
-  place-items: center;
-  margin-top: 5rem;
-  align-items: start;
-  position: relative;
-  left: auto;
-  right: auto;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1.5rem 0;
 }
 
-.event-box {
+.events-title h1 {
+  font-size: 200%;
+  margin-bottom: 0rem;
+}
+
+.events-title p {
+  margin-top: 0.5rem;
+}
+
+.event-box {  
   background-color: #ff7d29;
-  place-items: center;
+  position: relative;
+  z-index: 100vw;
 }
-
-.event {
-    position: relative;
+.events-rundown {
+  background-color: #4275c2;
+}
+/* .event {
+  position: relative;
     z-index: 120vw;
 }
 
-.event * {
+.event h2 {
+  font: var(--font-bold);
+  font-size: 2rem; 
+} */
+
+/* .event * {
     margin: 0;
-}
+} */
 
 .inline {
   display: flex;
@@ -112,7 +128,15 @@ a, a:hover {
   position: absolute;
   z-index: 3;
   color: white;
-  font-size: 2rem;
+  font-size: 18pt;
   text-align: center;
   width: 100%;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--black-color);
+  color: var(--white-color);
+  margin-top: 2.5rem;
 }

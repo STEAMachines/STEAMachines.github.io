@@ -388,4 +388,10 @@ header {
   margin: 0px 0px 0px 0px;
   width: 100%;
 } */
-
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--black-color);
+  color: var(--white-color);
+  margin-top: 2.5rem;
+}

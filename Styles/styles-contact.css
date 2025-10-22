@@ -1,4 +1,10 @@
 .social {
+    padding: 10vw;
     display: flex;
     flex-direction: row;
+}
+
+.info-container {
+    background-color: #ff7d29;
+    border-radius: 25px;
 }

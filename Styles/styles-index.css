@@ -98,3 +98,21 @@ a, a:hover {
   display: flex;
   flex-direction: row;
 }
+
+.inactive {
+  z-index: 1;
+}
+
+.hl-image {
+  position: relative;
+  z-index: 2;
+}
+
+.hl-text {
+  position: absolute;
+  z-index: 3;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  width: 100%;
+}

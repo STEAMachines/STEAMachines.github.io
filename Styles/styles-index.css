@@ -8,8 +8,8 @@ a, a:hover {
 }
 
 .highlights {
-  display: flex;
-  flex-direction: row;
+  display: inline;
+  position: relative;
   justify-content: center;
   align-items: center;
   width: 100vw;
@@ -20,7 +20,11 @@ a, a:hover {
   gap: 1rem; /* Use gap instead of margin for consistent spacing */
 }
 
-.highlights img:not(#mid) {
+.hl-item {
+  position: absolute;
+}
+
+.highlights img:not(#mid),video:not(#mid) {
   width: 45%; /* Reduced from 40% */
   height: auto; /* Use auto to maintain aspect ratio */
   flex-shrink: 1;
@@ -28,24 +32,14 @@ a, a:hover {
   margin: 5vw;
 }
 
-#mid {
-  width: 65%; /* Reduced from 60% */
-  height: auto; /* Use auto to maintain aspect ratio */
-  flex-shrink: 1;
-  min-width: 0;
-  position: absolute;
-}
-
 .l {
-  position: absolute;
   left: 0%;
   margin-left: 0%;
 }
 
 .r {
-  position: absolute;
   right: 0%;
-  margin-left: 0%;
+  margin-right: 0%;
 }
 
 .css3-shadow {

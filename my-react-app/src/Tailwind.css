@@ -1,0 +1,6 @@
+/* Placeholder Tailwind.css for Storybook render. Replace with actual Tailwind setup if available */
+/* Adding a minimal rule so the module exists and Storybook can import it */
+html, body {
+	font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+	margin: 0;
+}
